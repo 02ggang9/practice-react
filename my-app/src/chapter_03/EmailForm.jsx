@@ -11,7 +11,7 @@ const EmailForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://13.209.79.37', {  // IP 주소로 요청
+      const response = await axios.post('http://13.209.79.37/mail/month-report', {  // IP 주소로 요청
         title, 
         body, 
         password,
