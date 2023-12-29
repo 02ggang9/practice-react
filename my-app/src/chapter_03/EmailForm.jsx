@@ -10,10 +10,17 @@ const EmailForm = () => {
     e.preventDefault();
 
     try {
-      await axios.post('/mail', { title, body, password });
-      // 성공적으로 보냈다는 메시지 표시
+      const response = await axios.post('https://02ggang9.com/month-report', {
+        title, 
+        body, 
+        password
+      });
+
+      // 여기에 성공적으로 요청을 보냈을 때의 로직을 작성하세요.
+      console.log(response.data);
     } catch (error) {
       // 에러 처리
+      console.error(error);
     }
   };
 

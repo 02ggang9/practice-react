@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './chapter_03/Library';
+import EmailForm from './chapter_03/EmailForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Library />
+    <EmailForm />
   </React.StrictMode>
   // document.getElementById('root')
 );
