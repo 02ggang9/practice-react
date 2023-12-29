@@ -10,7 +10,7 @@ const EmailForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://02ggang9.com/month-report', {
+      const response = await axios.post('https://13.209.79.37/month-report', {
         title, 
         body, 
         password
